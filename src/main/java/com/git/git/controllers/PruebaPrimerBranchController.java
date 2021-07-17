@@ -4,4 +4,5 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RequestMapping("/pruebaPrimera")
 public class PruebaPrimerBranchController {
+  private final RestTemplate restTemplate;
 }
